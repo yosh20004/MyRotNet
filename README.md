@@ -89,8 +89,8 @@ Each script:
 
 | Script | Purpose |
 |--------|---------|
-| `rename_images.py` | Rename your own images to `image_001.jpg`, `image_002.jpg`, … |
-| `check_duplicates.py` | Detect near-duplicates between training and test folders |
+| `script/rename_images.py` | Rename your own images to `image_001.jpg`, `image_002.jpg`, … |
+| `script/check_duplicates.py` | Detect near-duplicates between training and test folders |
 | `classify_images_to_csv.py` | (Optional) Auto-label your images with Gemini AI |
 
 ---
@@ -106,6 +106,9 @@ RotNet/
 │   ├── cifar10_rotnet_encoder.pth
 │   ├── mydata_rotnet_relu.pth
 │   └── mydata_rotnet_mish.pth
+├── script/
+│   ├── rename_images.py
+│   └── check_duplicates.py
 ├── train/
 │   ├── cifar-10-train/
 │   └── mydataset/
